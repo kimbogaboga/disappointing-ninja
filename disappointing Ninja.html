@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide();
+            })
+            $("#btn").click(function(){
+                $("img").show();
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>jQuery - assignment 1</h1>
+    <button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px"></button>
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+    <button></button><img src="stitch.jpeg" alt="stitch.jpeg" height="250px">
+
+    <br>
+    <button id="btn">Restore</button>
+    <button></button>
+</body>
+</html>
